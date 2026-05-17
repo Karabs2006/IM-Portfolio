@@ -2,6 +2,7 @@
     font-family: Helvetica, Arial, sans-serif;
     margin: auto;
     padding: auto;
+    background-color:floralwhite;
     
 }
 #header-img{
@@ -35,7 +36,7 @@ nav{
 
 li{
     padding-right: 50px;
-    border-right: 1px solid black;
+    /*border-right: 1px solid black;*/
    
 }
 
@@ -75,6 +76,8 @@ footer{
     display: flex;
     background-color: darkgray;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
 
 }
 
@@ -88,6 +91,7 @@ footer{
 .about-card{
     display: flex;
     flex-direction: column;
+    padding: 20px;
 
 }
 
@@ -102,8 +106,15 @@ footer{
     background-color: rgb(98, 68, 125);
     color: beige;
     padding: 1em;
-    border-radius: 25%;
+    border-radius: 15px;
     margin-bottom: 20px;
+    
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    overflow-x: auto;
     
 }
 
@@ -111,6 +122,18 @@ footer{
     padding: 20px;
 }
 
+footer h1{
+    padding-bottom: 20px;
+}
 
+.nav-link:hover{
+    background-color: #89cff0;
+    transition: background-color 0.3s ease;
+    color: azure;
+}
 
-
+.nav-link{
+    padding: 20px 10px 20px 10px;
+    border-radius: 13px;
+    text-decoration: none;
+}
