@@ -16,6 +16,7 @@
     max-width: 5rem;
     padding: 0;
     margin: 10px;
+    padding-left: 15px;
 }
 
 nav{
@@ -136,4 +137,29 @@ footer h1{
     padding: 20px 10px 20px 10px;
     border-radius: 13px;
     text-decoration: none;
+}
+
+.projects-hero-section{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+   margin-bottom: 30px;
+}
+
+footer li{
+    list-style: none;
+}
+
+.social-links img {
+    width: 2em;
+    max-height: 10em;
+    padding-right: 10px;
+    margin:0;
+}
+
+social-links p{
+    width: 2em;
+    max-height: 10em;
+    padding-left: 30px;
+    margin:0;
 }

@@ -1,0 +1,66 @@
+.main-heading{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    max-width: 80%;
+    margin-bottom: 50px;
+    
+}
+
+.sub-heading{
+     margin-left: 4em;
+}
+
+button.projects-btn{
+    border: none;
+
+}
+
+button.projects-btn:hover{
+    border: none;
+    background-color: aqua;
+    cursor: pointer;
+
+}
+
+.projects-gallery img{
+    max-width: 40em;
+    max-height: 20em;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.projects-gallery{
+    display: flex;
+    justify-content: space-around;
+    overflow-x: auto;
+}
+
+.project-one p{
+    max-width: 90em;
+    margin: 30px;
+    justify-content: center;
+}
+
+.project-two p{
+    max-width: 90em;
+    margin: 30px;
+    justify-content: center;
+}
+
+.project-one.hide{
+    display: none;
+}
+
+.main-heading:hover{
+    background-color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: azure;
+}
+
+.projects-gallery img:hover{
+     transition: transform 0.5s ease;
+     transform: scale(1.1);
+    
+}
