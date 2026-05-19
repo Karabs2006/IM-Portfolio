@@ -11,44 +11,38 @@
      margin-left: 4em;
 }
 
-button.projects-btn{
+button.dropdown-btn{
     border: none;
 
 }
 
-button.projects-btn:hover{
+button.dropdown-btn:hover{
     border: none;
     background-color: aqua;
     cursor: pointer;
 
 }
 
-.projects-gallery img{
+.dropdown-gallery img{
     max-width: 40em;
     max-height: 20em;
     border-radius: 20px;
     margin: 20px;
 }
 
-.projects-gallery{
+.dropdown-gallery{
     display: flex;
     justify-content: space-around;
     overflow-x: auto;
 }
 
-.project-one p{
+.dropdown-paragraph{
     max-width: 90em;
     margin: 30px;
     justify-content: center;
 }
 
-.project-two p{
-    max-width: 90em;
-    margin: 30px;
-    justify-content: center;
-}
-
-.project-one.hide{
+.hide{
     display: none;
 }
 
@@ -59,7 +53,7 @@ button.projects-btn:hover{
     color: azure;
 }
 
-.projects-gallery img:hover{
+.dropdown-gallery img:hover{
      transition: transform 0.5s ease;
      transform: scale(1.1);
     
