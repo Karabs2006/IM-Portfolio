@@ -1,0 +1,123 @@
+.hobby-hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobby-hero-text{
+    padding: 2em;
+}
+
+.hobby-hero-text h1{
+    padding-bottom: 0.3em;
+}
+
+
+.carousel{
+
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    overflow-x: auto;
+
+     -webkit-mask: linear-gradient(
+        90deg,
+        transparent,
+        white 10%,
+        white 90%,
+        transparent
+    );
+
+    mask: linear-gradient(
+        90deg,
+        transparent,
+        white 2%,
+        white 98%,
+        transparent
+    );
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: rotate 20s infinite linear;
+    padding-right: 1em;
+    padding-bottom: 10em;
+
+}
+
+.card{
+    flex: 0 0 5em;
+    height: 5em;
+    align-content: center;
+}
+
+.group img{
+    max-width: 15em;
+    max-height: 15em;
+    border-radius: 20px;
+}
+
+@keyframes rotate {
+    from {translate: 0;}
+    to{translate: -100%;}
+}
+
+.gaming-intro-text{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.gaming-intro-text h1{
+ padding-bottom: 0.4em;
+    
+}
+
+.game-card img{
+    border-radius: 0.8em;
+    width: 25em;
+    height: 30em;
+}
+
+.game-card{
+    position: relative;
+    display: inline-block; 
+    padding: 30px;
+}
+
+.shape {
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: white; /* Transparent red */
+  border: 8px solid black;
+  border-radius: 50%; /* Makes it a circle */
+}
+
+
+.shape p{
+
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    background: none;
+
+    font-size: 3em;
+
+}
+
+.games-container{
+ display: flex;
+ overflow-x: auto;
+}
+
+
