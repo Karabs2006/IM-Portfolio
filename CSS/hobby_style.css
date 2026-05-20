@@ -82,8 +82,13 @@
 
 .game-card img{
     border-radius: 0.8em;
-    width: 25em;
+    width: 22em;
     height: 30em;
+}
+
+.game-card img:hover{
+    transition: transform 0.3s ease;
+     transform: scale(1.02);
 }
 
 .game-card{
@@ -118,6 +123,8 @@
 .games-container{
  display: flex;
  overflow-x: auto;
+scrollbar-width: none; 
+ padding-bottom: 30px;
 }
 
 

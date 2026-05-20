@@ -1,0 +1,49 @@
+.comics-hero-text{
+    padding-bottom: 50px;
+    
+}
+
+.comic-stack{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    width: 300px;
+    position: relative;
+}
+
+.comic-stack img{
+  grid-column: 1;
+  grid-row: 1;
+  
+    width: 20em;
+    height: 30em;
+
+    border-radius: 20px;
+
+}
+
+.comics-container{
+    display: flex;
+}
+
+.comic-stack img:nth-child(1) {
+    transform: translateX(0px);
+    z-index: 3;
+}
+
+.comic-stack img:nth-child(2) {
+    transform: translateX(20px);
+    z-index: 2;
+}
+
+.comic-stack img:nth-child(3) {
+    transform: translateX(40px);
+    z-index: 1;
+}
+
+
+.comic-stack img:hover{
+    transition: transform 0.5s ease;
+     transform: scale(1.1);
+}
