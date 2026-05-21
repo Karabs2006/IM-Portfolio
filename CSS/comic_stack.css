@@ -1,6 +1,8 @@
 .comics-hero-text{
+    display: flex;
+    flex-direction: column;
     padding-bottom: 50px;
-    
+    gap:16px;
 }
 
 .comic-stack{
@@ -8,7 +10,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
 
-    width: 300px;
+  
     position: relative;
 }
 
@@ -20,16 +22,20 @@
     height: 30em;
 
     border-radius: 20px;
+    border: 3px solid black;
+  
 
 }
 
 .comics-container{
     display: flex;
+    gap: 0;
 }
 
 .comic-stack img:nth-child(1) {
     transform: translateX(0px);
     z-index: 3;
+    animation: slideRight 0.7s ease-in-out 2 alternate;
 }
 
 .comic-stack img:nth-child(2) {
@@ -43,7 +49,62 @@
 }
 
 
-.comic-stack img:hover{
+.comic-stack img:nth-child(1):hover{
     transition: transform 0.5s ease;
-     transform: scale(1.1);
+    transform: scale(1.03);
 }
+
+
+.next-comic-btn{
+
+    padding: 15px;
+    border-radius: 8px;
+    background-color:rgb(247, 149, 3);
+    color:beige
+
+}
+
+.next-comic-btn:hover
+{
+    transition: transform 0.9s ease;
+    transform: scale(1.1);
+
+    background-color:beige;
+    transition: background-color 0.3s ease;
+    color: rgb(253, 101, 0);
+    border-color: rgb(253, 101, 0);
+    cursor: pointer;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.fade-in h1{
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+.fade-in p{
+  animation: fadeIn 0.7s ease-in forwards;
+}
+
+
+
+@keyframes slideRight {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-15px);
+    }
+}
+
+.comic-info {
+    margin-left: -10em;
+}
+
+
+

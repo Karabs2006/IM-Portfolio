@@ -1,0 +1,46 @@
+#music-hero{
+    display: flex;
+}
+
+
+#music-hero-text{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.vinyl{
+    width: 20em;
+    padding: 0;
+
+}
+
+.vinyl-artwork img{
+    
+    position: relative;
+    bottom: 13.55em;
+    left: 6.7em;
+    width: 6.6em;
+    height: 6.6em;
+    border-radius: 50%; 
+}
+
+.rotate {
+  animation: rotation 3s linear infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.artist{
+
+    
+}
