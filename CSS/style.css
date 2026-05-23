@@ -2,8 +2,12 @@
     font-family: Helvetica, Arial, sans-serif;
     margin: auto;
     padding: auto;
-    background-color:floralwhite;
     
+    
+}
+
+body{
+background-color:floralwhite;
 }
 #header-img{
     width: 100%;
