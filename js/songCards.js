@@ -15,7 +15,7 @@ const songs =[
         album: "Walking On A Dream",
         year: "2016",
         cover:"dream.jpg",
-        bgColor: "#F21B33"
+        bgColor: "#58a1ee"
     },
 
      {
@@ -24,7 +24,7 @@ const songs =[
         album: "Random Access Memories",
         year: "2013",
         cover:"ram.jpg",
-        bgColor: "#F21B33"
+        bgColor: "#493d3f"
     },
 
     {
@@ -33,7 +33,7 @@ const songs =[
         album: "Hyperion",
         year: "2019",
         cover:"hyperion.jpg",
-        bgColor: "#F21B33"
+        bgColor: "#323031"
     },
 
     {
@@ -42,7 +42,7 @@ const songs =[
         album: "Discovery",
         year: "2001",
         cover:"discovery.jpg",
-        bgColor: "#F21B33"
+        bgColor: "#ce9da3"
     },
 
     {
@@ -51,7 +51,7 @@ const songs =[
         album: "In the Name of Love",
         year: "2016",
         cover:"love.jpg",
-        bgColor: "#F21B33"
+        bgColor: "#be4a95"
     },
 
     
@@ -61,7 +61,7 @@ const songs =[
         album: "Songs of Her's",
         year: "2017",
         cover:"hers.jpg",
-        bgColor: "#F21B33"
+        bgColor: "#8b2aa6"
     },
 
     
@@ -80,7 +80,7 @@ const songs =[
         album: "Who Really Cares",
         year: "2016",
         cover:"wrc.jpg",
-        bgColor: "#F21B33"
+        bgColor: "#f21bd5"
     },
     
     {
@@ -89,7 +89,7 @@ const songs =[
         album: "Queen Of The Clouds",
         year: "2014",
         cover:"tovelo.jpg",
-        bgColor: "#F21B33"
+        bgColor: "#622466"
     },
 
     {
@@ -98,7 +98,7 @@ const songs =[
         album: "I Follow Rivers (The Magician Remix)",
         year: "2011",
         cover:"follow.jpg",
-        bgColor: "#F21B33"
+        bgColor: "#573457"
     },
 
     {
@@ -107,7 +107,7 @@ const songs =[
         album: "Views",
         year: "2016",
         cover:"views.jpg",
-        bgColor: "#F21B33"
+        bgColor: "#9c763d"
     },
     
     {
@@ -125,7 +125,7 @@ const songs =[
         album: "Skrillex and Diplo present Jack Ü",
         year: "2016",
         cover:"bieber.jpg",
-        bgColor: "#F21B33"
+        bgColor: "#efe52d"
     },
 
 
@@ -153,6 +153,9 @@ ${song.album}<br>
 ${song.year}
 </em></p>
 </div>
+
+
+<audio><
 `
 card.classList.add("song-card");
 songCardContainer.appendChild(card);
@@ -165,4 +168,10 @@ card.style.setProperty
 
 
 
+
+
+
 })
+
+
+

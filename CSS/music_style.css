@@ -205,3 +205,115 @@ video{
   padding: 30px;
 }
 
+
+
+
+.genre-stack{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+  
+    position: relative;
+}
+
+.genre-stack img{
+  grid-column: 1;
+  grid-row: 1;
+  
+    width: 20em;
+    height: 30em;
+
+    border-radius: 20px;
+    border: 3px solid black;
+  
+
+}
+
+.genre-container{
+    display: flex;
+    gap: 0;
+    margin: 20px;
+}
+
+.genre-stack img:nth-child(1) {
+    transform: translateX(0px);
+    z-index: 3;
+    animation: slideRight 0.7s ease-in-out 2 alternate;
+}
+
+.genre-stack img:nth-child(2) {
+    transform: translateX(20px);
+    z-index: 2;
+}
+
+.genre-stack img:nth-child(3) {
+    transform: translateX(40px);
+    z-index: 1;
+}
+
+
+.genre-stack img:nth-child(1):hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.03);
+}
+
+
+.next-genre-btn{
+
+    padding: 15px;
+    border-radius: 8px;
+    background-color:rgb(247, 149, 3);
+    color:beige
+
+}
+
+.next-genre-btn:hover
+{
+    transition: transform 0.9s ease;
+    transform: scale(1.1);
+
+    background-color:beige;
+    transition: background-color 0.3s ease;
+    color: rgb(253, 101, 0);
+    border-color: rgb(253, 101, 0);
+    cursor: pointer;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.fade-in h1{
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+.fade-in p{
+  animation: fadeIn 0.7s ease-in forwards;
+}
+
+
+
+@keyframes slideRight {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-15px);
+    }
+}
+
+.music-info {
+    margin-left: -50em;
+}
+
+#genre-section{
+
+  margin: 30px;
+}
+
+
+
