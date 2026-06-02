@@ -39,6 +39,32 @@
   }
 }
 
+#photo-selection{
+  display: grid;
+
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, 1fr);
+
+    gap: 20px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 40px;
+}
+
+#photo-selection img{
+  max-width: 7em;
+  max-height: 7em;
+  border-radius: 50%;
+}
+
+#photo-selection img:hover{
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: scale(1.015);
+
+}
+
 #artists-section{
 
   padding-bottom: 50px;
@@ -88,13 +114,6 @@ video{
   font-size: 5em;
   font-weight: 600;
 }
-
-
-
-
-
-
-
 
 #albums-section{
   padding: 20px;

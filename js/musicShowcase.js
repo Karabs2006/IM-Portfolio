@@ -1,4 +1,7 @@
 const container = document.querySelector("#artists-section");
+const vinylPhotoContainer = document.querySelector("#photo-selection");
+const photoUpload = document.getElementById("photoUpload");
+const vinylPhoto = document.querySelector(".vinyl-artwork");
 
 const artists = [
 
@@ -47,6 +50,37 @@ const artists = [
 
 ]
 
+const photos = [
+    "hut",
+    "luvtape",
+    "nerd",
+    "planether",
+    "lnd",
+    
+
+]
+
+photos.forEach((photo)=>{
+
+    const image = document.createElement("div");
+
+    image.innerHTML =
+    `<img src="../images/Music/Albums/${photo}.jpg">`;
+
+    vinylPhotoContainer.appendChild(image);
+
+    image.addEventListener('click',(event)=>{
+
+        vinylPhoto.innerHTML =
+        `
+        <img src="../images/Music/Albums/${photo}.jpg">
+        `
+
+    })
+
+    
+})
+
 
 artists.forEach((artist)=>{
 
@@ -74,3 +108,17 @@ card.setAttribute("id",`${artist.id}`);
 container.appendChild(card);
 
 })
+
+
+photoUpload.addEventListener("change", (event) => {
+
+    const file = event.target.files[0];
+
+    if (!file) return;
+
+    const imageURL = URL.createObjectURL(file);
+
+    vinylPhoto.innerHTML = `
+        <img src="${imageURL}" alt="User uploaded image">
+    `;
+});
