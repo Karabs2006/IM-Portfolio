@@ -16,4 +16,19 @@ const renderCards = pages.forEach(page =>{
     `
 })
 
-renderCards();
+
+const menuButton = document.querySelector(".ham-menu");
+const hamMenu = document.querySelector(".off-screen-menu");
+const closeMenu = document.querySelector(".close-menu-btn");
+
+menuButton.addEventListener("click", (event)=>{
+
+    hamMenu.classList.toggle("active")
+     console.log("clicked");
+})
+
+
+closeMenu.addEventListener("click", (event)=>{
+
+    hamMenu.classList.toggle("active")
+})

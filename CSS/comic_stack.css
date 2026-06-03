@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
+    align-items: center;
     gap:16px;
 }
 
@@ -9,9 +10,8 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-
-  
     position: relative;
+    left: 2em;
 }
 
 .comic-stack img{
@@ -30,6 +30,10 @@
 .comics-container{
     display: flex;
     gap: 0;
+    align-items: center;
+    max-width: 90%;
+    margin-left: 40px;
+
 }
 
 .comic-stack img:nth-child(1) {
@@ -60,7 +64,9 @@
     padding: 15px;
     border-radius: 8px;
     background-color:rgb(247, 149, 3);
-    color:beige
+    color:beige;
+    margin: 20px ;
+
 
 }
 
@@ -103,7 +109,7 @@
 }
 
 .comic-info {
-    margin-left: -10em;
+    margin-left: 7em;
 }
 
 

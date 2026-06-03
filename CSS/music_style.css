@@ -1,5 +1,8 @@
 #music-hero{
     display: flex;
+    align-items: center;
+    margin-left: 10%;
+  
 }
 
 
@@ -7,6 +10,8 @@
 
     display: flex;
     flex-direction: column;
+    margin-bottom: 200px;
+    margin-right: 100px;
 }
 
 
@@ -153,6 +158,7 @@ video{
   padding-top: 0.5em;
   background: none;
   
+  
 }
 
 
@@ -184,6 +190,9 @@ video{
 
   width: 8em;
   height: 8em;
+  border-radius: 20px;
+  margin: 5px;
+
   
  
   background: none;
@@ -192,7 +201,7 @@ video{
 .song-card{
   display: flex;
   width: 32em;
-  height: 10em;
+  height: 9.5em;
   background-color: var(--bg-song-card-color);
   padding: 5px;
 
@@ -209,14 +218,17 @@ video{
 
 .song-info h1{
   width: 10em;
-  padding-bottom: 7px;
+  padding-bottom: 6px;
   background: none;
+  margin-top: 8px;
+  margin-left: 5px;
   
 }
 
 .song-info p{
   width: 100%;
   background: none;
+  margin-left: 5px;
 }
 
 #songs-section
@@ -253,6 +265,7 @@ video{
     display: flex;
     gap: 0;
     margin: 20px;
+    align-items: center;
 }
 
 .genre-stack img:nth-child(1) {
@@ -332,6 +345,25 @@ video{
 #genre-section{
 
   margin: 30px;
+}
+
+
+@media (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+{
+  #music-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+  }
+
+  #photo-selection
+  {
+    position: relative;
+    bottom: 7em;
+
+  }
 }
 
 

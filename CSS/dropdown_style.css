@@ -58,3 +58,24 @@ button.dropdown-btn:hover{
      transform: scale(1.1);
     
 }
+
+
+@media (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+{
+
+    .projects-hero-section
+    {   
+        margin-left: 30%;
+    }
+
+    .projects-content
+    {
+        margin-left: 5%;
+    }
+
+
+
+    
+}
+
