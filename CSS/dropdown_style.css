@@ -1,3 +1,19 @@
+.projects-hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 5em;
+
+}
+
+.projects-content
+    {   
+        margin-left: 20em;
+        align-items: center;
+    }
+
+
 .main-heading{
     padding: 20px;
     border: 1px solid black;
@@ -7,8 +23,9 @@
     
 }
 
-.sub-heading{
-     margin-left: 4em;
+.skills-content{
+
+    margin-left: 150px;
 }
 
 button.dropdown-btn{
@@ -24,6 +41,7 @@ button.dropdown-btn:hover{
 }
 
 .dropdown-gallery img{
+    border: 3px solid black;
     max-width: 40em;
     max-height: 20em;
     border-radius: 20px;
@@ -32,8 +50,10 @@ button.dropdown-btn:hover{
 
 .dropdown-gallery{
     display: flex;
+    position: relative;
     justify-content: space-around;
     overflow-x: auto;
+    right: 200px
 }
 
 .dropdown-paragraph{
@@ -60,8 +80,7 @@ button.dropdown-btn:hover{
 }
 
 
-@media (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+@media (max-device-width : 1024px) 
 {
 
     .projects-hero-section
@@ -78,4 +97,64 @@ and (max-device-width : 1024px)
 
     
 }
+
+
+@media (max-device-width : 768px)
+{
+    .projects-hero-section{
+    align-items: center;
+    gap: 16px;
+    margin-left: 3em;
+    margin-bottom: 3em;
+
+}
+
+.projects-content
+    {   
+      
+        position: relative;
+        margin-left: 150px;
+        align-items: center;
+    }
+
+
+    .dropdown-gallery
+    {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    overflow-x: auto;
+    right: 50px;
+    }
+
+
+    .dropdown-gallery img{
+    border: 3px solid black;
+    max-width: 21em;
+    max-height: 17em;
+    border-radius: 20px;
+    margin: 20px;
+
+
+    }
+
+
+.skills-content{
+
+    margin: auto;
+    margin-left: 40px;
+}
+
+
+.main-heading{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    max-width: 90%;
+    margin-bottom: 50px;
+    
+}
+
+}
+
 

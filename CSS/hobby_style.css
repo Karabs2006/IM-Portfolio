@@ -14,7 +14,7 @@
 
 .carousel{
 
-    margin: 100px auto;
+    margin: 80px auto;
     width: 90%;
     display: flex;
     overflow-x: auto;
@@ -84,7 +84,7 @@
 
 .game-card img{
     border-radius: 0.8em;
-    width: 22em;
+    width: 20em;
     height: 30em;
 }
 
@@ -101,10 +101,10 @@
 
 .shape {
   position: absolute;
-  top: -5px;
+  top: 0px;
   left: 10px;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background-color: white; /* Transparent red */
   border: 8px solid black;
   border-radius: 50%; /* Makes it a circle */
@@ -114,8 +114,8 @@
 .shape p{
 
     position: absolute;
-    top: 25%;
-    left: 35%;
+    top: 10%;
+    left: 20px;
     background: none;
 
     font-size: 3em;
@@ -130,8 +130,7 @@ scrollbar-width: none;
 }
 
 
-@media (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+@media (max-device-width : 1024px) 
 {
 
     .gaming-intro-text
@@ -147,6 +146,57 @@ and (max-device-width : 1024px)
 
     
 }
+
+
+@media (max-device-width : 768px) 
+{
+    
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: rotate 20s infinite linear;
+    padding-right: 1em;
+    padding-bottom: 10em;
+
+}
+
+
+.hobby-hero-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+    
+
+
+.carousel{
+
+    margin: 50px auto;
+    margin-top: 10px;
+    
+}
+
+
+.gaming-intro-text
+{
+
+   margin: auto;
+    width: 90%;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
 
 
 

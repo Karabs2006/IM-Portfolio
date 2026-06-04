@@ -32,7 +32,7 @@
     gap: 0;
     align-items: center;
     max-width: 90%;
-    margin-left: 40px;
+    margin-left: 500px;
 
 }
 
@@ -61,11 +61,13 @@
 
 .next-comic-btn{
 
-    padding: 15px;
+    padding: 25px;
     border-radius: 8px;
     background-color:rgb(247, 149, 3);
     color:beige;
-    margin: 20px ;
+    margin-left: 70em ;
+    margin-top: 2em;
+    margin-bottom: 2em;
 
 
 }
@@ -111,6 +113,90 @@
 .comic-info {
     margin-left: 7em;
 }
+
+@media (max-device-width : 1024px) 
+{
+    .comics-container{
+    
+    margin-left: 10px;
+
+}
+    
+
+
+.next-comic-btn{
+
+    margin-left: 25em ;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+    
+
+}
+
+
+@media (max-device-width : 768px) 
+{
+    .comics-container{
+        display: flex;
+        flex-direction: column;
+        margin-right: 70px;
+
+}
+    
+
+
+.next-comic-btn{
+
+    margin-left: 12em ;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+.comic-stack img{
+  grid-column: 1;
+  grid-row: 1;
+  
+    width: 15em;
+    height: 25em;
+
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+  
+
+}
+
+.comic-info {
+    margin-left: 7em;
+    width: 100%;
+    gap: 16px;
+}
+
+
+.comics-hero-text{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    align-items: center;
+    gap:16px;
+    width: 80%;
+    margin-left: 30px;
+}
+
+
+.hobby-hero-section{
+    display: flex;
+    flex-direction: column;
+}
+    
+
+}
+
+
+
 
 
 

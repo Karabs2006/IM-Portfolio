@@ -101,28 +101,7 @@
 
 
 
-video{
-   
 
-    width: 35em;
-    height: auto;
-
-    border-radius: 1em;
-    pointer-events: none;
-}
-
-
-
-#the-weeknd h1{
-
-  font-family:'Cormorant Garamond', Helvetica, Arial, sans-serif;
-  font-size: 5em;
-  font-weight: 600;
-}
-
-#albums-section{
-  padding: 20px;
-}
 
 .album-card-container{
   display: flex;
@@ -262,7 +241,9 @@ video{
 }
 
 .genre-container{
+  padding-left: 3em;
     display: flex;
+    flex-grow: 1;
     gap: 0;
     margin: 20px;
     align-items: center;
@@ -293,10 +274,11 @@ video{
 
 .next-genre-btn{
 
-    padding: 15px;
+    padding: 25px;
     border-radius: 8px;
     background-color:rgb(247, 149, 3);
-    color:beige
+    color:beige;
+    margin-left: 65em
 
 }
 
@@ -348,22 +330,23 @@ video{
 }
 
 
-@media (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+@media (min-device-width : 768px)  
 {
   #music-hero{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap:40px;
+    margin-left: 10%;
+  
   }
 
-  #photo-selection
-  {
-    position: relative;
-    bottom: 7em;
 
-  }
+#music-hero-text{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+    margin-right: 100px;
+}
 }
 
 
