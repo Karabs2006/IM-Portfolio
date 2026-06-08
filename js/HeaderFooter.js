@@ -11,11 +11,11 @@ header.innerHTML=
         </div>
 
         <ul>
-        <li>Home</li>
-        <li>Projects</li>
-        <li>Skills</li>
-        <li>Hobbies</li>
-        <li>Music</li>
+            <li><a href="./index.html" class="nav-link">Home</a></li>
+            <li><a href="./projects.html" class="nav-link">Projects</a></li>
+            <li><a href="./skills.html" class="nav-link">Skills</a></li>
+            <li><a href="./hobbies.html" class="nav-link">Hobbies</a></li>
+            <li><a href="./music.html" class="nav-link">Music</a></li>
         </ul>
 
 

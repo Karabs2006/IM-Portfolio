@@ -75,6 +75,11 @@
   padding-bottom: 50px;
 }
 
+#artists-section h1{
+
+  padding: 16px;
+}
+
 
 .artist{
    
@@ -241,11 +246,12 @@
 }
 
 .genre-container{
-  padding-left: 3em;
+  padding-left: 20em;
+  padding-top: 50px;
     display: flex;
     flex-grow: 1;
-    gap: 0;
-    margin: 20px;
+    gap: 5em;
+   margin: auto;
     align-items: center;
 }
 
@@ -278,7 +284,9 @@
     border-radius: 8px;
     background-color:rgb(247, 149, 3);
     color:beige;
-    margin-left: 65em
+    margin-left: 50%;
+    position: relative;
+    bottom: 80px;
 
 }
 
@@ -326,16 +334,18 @@
 
 #genre-section{
 
-  margin: 30px;
+  margin-bottom: 25px;
+  margin-left: 23px;
 }
 
 
-@media (min-device-width : 768px)  
+@media (max-device-width : 768px)  
 {
   #music-hero{
     display: flex;
-    align-items: center;
-    margin-left: 10%;
+    flex-direction: column;
+    margin: 0px;
+    
   
   }
 
@@ -344,10 +354,136 @@
 
     display: flex;
     flex-direction: column;
-    margin-bottom: 200px;
-    margin-right: 100px;
-}
+    margin-bottom: 50px;
+    margin-right: 0px;
+    width: 80%;
 }
 
+
+#photo-selection{
+  display: grid;
+
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3, 1fr);
+
+    gap: 20px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0px;
+}
+
+
+.song-card-container{
+  display: grid;
+
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3, 1fr);
+
+    gap: 20px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 40px;
+    padding-left: 0%;
+
+}
+
+
+.song-cover img{
+  width: 6em;
+  height: 6em;
+}
+
+.song-card{
+
+  width: 23.1em;
+  height: 8em;
+
+}
+
+
+.song-info h1{
+  width: 8em;
+  font-size: large;
+  padding-bottom: 6px;
+  background: none;
+  margin-top: 8px;
+  margin-left: 5px;
+  
+}
+
+.song-info p{
+  width: 100%;
+  background: none;
+  margin-left: 5px;
+  font-size: small;
+}
+
+
+.genre-stack img{
+
+    width: 19em;
+    height: 25em;
+}
+
+.genre-container{
+  padding-left: 0em;
+  padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+   margin: 0px;
+  align-items: self-start;
+}
+
+
+.next-genre-btn{
+
+    padding: 20x;
+    border-radius: 8px;
+    background-color:rgb(247, 149, 3);
+    color:beige;
+    font-size: larger;
+    margin-left: 33%;
+    position: relative;
+    bottom: 0px;
+    margin-top: 1.5em;
+
+}
+
+
+form{
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px;
+}
+
+label{
+  width: 100%;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+}
+
+
+form{
+  padding-top: 30px;
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+
+label{
+  width: 90%;
+  margin-right: 40px;
+}
+
+textarea{
+  border-radius: 7px;
+}
 
 
