@@ -98,5 +98,5 @@ closeMenu.addEventListener("click", (event)=>{
 
 logo.addEventListener("click",(event)=>
 {
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 })
