@@ -5,6 +5,10 @@
   
 }
 
+.photo-upload{
+  margin: 0%;
+}
+
 
 #music-hero-text{
 
@@ -131,6 +135,7 @@
 .album-card:hover{
 
   cursor: pointer;
+  color: aliceblue;
   background-color: var(--bg-card-color);
   transition: background-color 0.3s ease;
   transition: transform 0.3s ease;
@@ -138,11 +143,8 @@
 }
 
 .album-card h1{
-
   padding-top: 0.5em;
   background: none;
-  
-  
 }
 
 
@@ -339,6 +341,40 @@
 }
 
 
+@media (max-device-width : 1024px) 
+{
+
+  #photo-selection
+{
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.genre-container{
+  padding-left: 0em;
+  padding-top: 50px;
+  
+  gap: 4em;
+  align-items: center;
+}
+
+
+.next-genre-btn{
+
+    padding: 20x;
+    border-radius: 8px;
+    background-color:rgb(247, 149, 3);
+    color:beige;
+    font-size: larger;
+    margin-left: 45%;
+    position: relative;
+    bottom: 12px;
+    margin-top: 1.5em;
+
+}
+}
+
+
 @media (max-device-width : 768px)  
 {
   #music-hero{
@@ -485,5 +521,9 @@ label{
 textarea{
   border-radius: 7px;
 }
+
+
+
+
 
 

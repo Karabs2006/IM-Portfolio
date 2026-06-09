@@ -158,36 +158,27 @@ color: rgb(183, 106, 255);
 }
 
 
-@media (max-device-width : 768px) 
+@media (max-device-width : 1024px) 
 {
+
     video{
-    width: 15em;
-    height: auto;
-    border-radius: 1em;
-    pointer-events: none;
+        margin: auto;
     }
 
-    #the-weeknd h1{
-        font-size: 6em;
-        font-weight: 700;
-        
-        color: rgb(88, 105, 45);
-
-    }
-
-#the-weeknd p{
-
+    #the-weeknd p
+    {
     height: auto;
-    color:bisque;
-    margin: 0px;
+    font-size: large;
+    margin: auto;
     
-}
+    }
 
 
 #the-weeknd video{
 
-    width: 15em;
-    margin-left: 100px;
+    width: 30em;
+    margin: auto;
+    padding-bottom: 30px;
 
 }
 
@@ -203,26 +194,198 @@ color: rgb(183, 106, 255);
     font-size: 6em;
         font-weight: 700;
         margin: auto;
+        margin-top: 0px;
+        margin-bottom: 10px;
+
 
 }
 
 #daft-punk video{
-    margin-left: 100px;
+    width: 30em;
+    margin: auto;
+    padding-bottom: 30px;
 }
 
 #daft-punk p{
-    margin-left: 40px;
+    margin: auto;
     color: aliceblue;
+    font-size: large;
 }
 
 
 #jahseh h1{
 
-    font-size: 3.3em;
+    font-size: 6em;
     font-weight: 700;
     margin: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
     
     
+}
+
+
+#jahseh .artist-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+
+#jahseh video{
+
+    width: 35em;
+    margin-bottom: 40px;
+}
+
+
+
+#jahseh p{
+    margin: auto;
+    color: aliceblue;
+    font-size: large;
+}
+
+
+
+#tame-impala h1
+{
+    font-size: 5em;
+    font-weight: 700;
+    margin-left: 100px;
+    max-width: 100%;
+
+}
+
+
+#tame-impala .artist-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0em;
+    margin: auto;
+}
+
+#tame-impala p{
+    color: aliceblue;
+    margin: auto;
+    font-size: large;
+}
+
+#tame-impala video{
+    width: 35em;
+    margin-bottom: 20px;
+}
+
+#twenty-one-pilots h1{
+font-size: 6em;
+font-weight: 700;
+margin: 0px;
+margin-left: 25% ;
+}
+
+#twenty-one-pilots video{
+    width: 35em;
+    margin-bottom: 20px;
+}
+
+#twenty-one-pilots .artist-content{
+
+    margin: 0;
+}
+
+#twenty-one-pilots p{
+    color: aliceblue;
+    margin: auto;
+    font-size: large;
+}
+
+
+#albums-section{
+  padding: 20px;
+}
+    
+
+
+}
+
+
+@media (max-device-width : 768px) 
+{
+
+    .album-card{
+        padding-left: 40px
+    }
+
+    .streaming-platforms img{
+
+    width: 4em;
+    height: 4em;
+}
+
+    video{
+    width: 1em;
+    height: auto;
+    border-radius: 1em;
+    pointer-events: none;
+    }
+
+    #the-weeknd h1{
+        font-size: 7em;
+        font-weight: 700;
+        
+        color: rgb(88, 105, 45);
+
+    }
+
+#the-weeknd p{
+
+    height: auto;
+    color:bisque;
+    margin: 0px;
+    font-size: medium;
+    
+}
+
+
+#the-weeknd video{
+
+    width: 22em;
+    margin-left: 10px;
+
+}
+
+.artist-content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#daft-punk h1{
+
+    font-size: 6em;
+        font-weight: 700;
+        margin: auto;
+
+}
+
+#daft-punk video{
+    width: 22em;
+    margin-left: 10px;
+}
+
+#daft-punk p{
+    margin-left: 40px;
+    color: aliceblue;
+    font-size: medium;
+}
+
+
+#jahseh h1{
+
+    font-size: 3.5em;
+    font-weight: 700;
+    margin: 0;
+
 }
 
 
@@ -240,6 +403,10 @@ color: rgb(183, 106, 255);
     color: aliceblue;
 }
 
+#jahseh video{
+    width: 22em;
+    margin-left: 10px;
+}
 
 
 #tame-impala h1
@@ -272,6 +439,10 @@ font-weight: 700;
 margin: auto;
 }
 
+#twenty-one-pilots video{
+    width: 22em;
+    margin-left: 10px;
+}
 
 #twenty-one-pilots .artist-content{
 
@@ -280,7 +451,8 @@ margin: auto;
 
 #twenty-one-pilots p{
     color: aliceblue;
-    margin-left: 20px ;
+    margin-left: 10px ;
+    font-size: medium;
 }
 
 
@@ -291,3 +463,6 @@ margin: auto;
     
     
 }
+
+
+

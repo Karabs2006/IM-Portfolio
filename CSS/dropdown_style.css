@@ -101,13 +101,15 @@ button.dropdown-btn:hover{
 
 @media (max-device-width : 768px)
 {
-    .projects-hero-section{
+
+
+    .projects-hero-section
+    {
     align-items: center;
     gap: 16px;
     margin-left: 3em;
     margin-bottom: 3em;
-
-}
+    }
 
 .projects-content
     {   

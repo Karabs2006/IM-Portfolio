@@ -145,11 +145,14 @@
 
 }
     
+.comic-info{
+    margin: 0px;
+}
 
 
 .next-comic-btn{
 
-    margin-left: 12em ;
+    margin-left: 13em ;
     margin-top: 2em;
     margin-bottom: 2em;
 

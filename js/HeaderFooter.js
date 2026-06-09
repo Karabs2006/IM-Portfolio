@@ -55,9 +55,9 @@ header.innerHTML=
     <section class="social-links">
         <h1>Social Links</h1>
         <ul>
-            <li><a href="https://www.instagram.com/" target="_blank"><img src="../images/instagram.png">Instagram</a></li>
-            <li><a href="https://www.instagram.com/" target="_blank"><img src="../images/github.png">GitHub</a></li>
-            <li><a href="https://www.instagram.com/" target="_blank"><img src="../images/codecademy.png">Codecademy</a></li>
+            <li><a href="https://www.instagram.com/k4ybeee_?igsh=MXZ1bHhzYnp4dDliZA%3D%3D&utm_source=qr" target="_blank"><img src="../images/instagram.png">Instagram</a></li>
+            <li><a href="https://github.com/Karabs2006" target="_blank"><img src="../images/github.png">GitHub</a></li>
+            <li><a href="https://www.codecademy.com/profiles/kayy_" target="_blank"><img src="../images/codecademy.png">Codecademy</a></li>
             <li class="xbox-tag"><img src="../images/xbox.png">KayyDucksworth</li>
 
         </ul>
@@ -79,6 +79,7 @@ header.innerHTML=
 })
 
 
+const logo = document.querySelector(".logo-img")
 const menuButton = document.querySelector(".ham-menu");
 const hamMenu = document.querySelector(".off-screen-menu");
 const closeMenu = document.querySelector(".close-menu-btn");
@@ -93,4 +94,9 @@ menuButton.addEventListener("click", (event)=>{
 closeMenu.addEventListener("click", (event)=>{
 
     hamMenu.classList.toggle("active")
+})
+
+logo.addEventListener("click",(event)=>
+{
+    window.open("./index.html", "_self")
 })
