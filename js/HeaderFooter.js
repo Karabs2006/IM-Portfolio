@@ -11,7 +11,7 @@ header.innerHTML=
         </div>
 
         <ul>
-            <li><a href="../index.html" class="nav-link">Home</a></li>
+            <li><a href="index.html" class="nav-link">Home</a></li>
             <li><a href="./projects.html" class="nav-link">Projects</a></li>
             <li><a href="./skills.html" class="nav-link">Skills</a></li>
             <li><a href="./hobbies.html" class="nav-link">Hobbies</a></li>
@@ -33,7 +33,7 @@ header.innerHTML=
     <nav class="static-nav">
         <img src="../images/logo.jpg.png" alt="logo image" class="logo-img">
         <ul class="nav-list">
-            <li><a href="./index.html" class="nav-link">Home</a></li>
+            <li><a href="index.html" class="nav-link">Home</a></li>
             <li><a href="./projects.html" class="nav-link">Projects</a></li>
             <li><a href="./skills.html" class="nav-link">Skills</a></li>
             <li><a href="./hobbies.html" class="nav-link">Hobbies</a></li>
@@ -98,5 +98,5 @@ closeMenu.addEventListener("click", (event)=>{
 
 logo.addEventListener("click",(event)=>
 {
-    window.location.href = "/index.html";
+    window.location.href = "index.html";
 })
