@@ -26,7 +26,7 @@ const renderCards = pages.forEach(page =>{
 
    container.innerHTML += 
    `<div class="about-card">
-    <img src="../images/${page.path}" class="about-image">
+    <img src="./images/${page.path}" class="about-image">
     <button type="button" class="about-button" data-location="${page.location}">${page.name}</button>
     <p class="about-paragraph">${page.paragraph}</p>
 
@@ -37,7 +37,7 @@ const renderCards = pages.forEach(page =>{
 document.querySelectorAll(".about-button").forEach(button => {
 
     button.addEventListener("click", () => {
-        window.open(`./${button.dataset.location}`, "_blank");
+        window.open(`./Html/${button.dataset.location}`, "_blank");
     });
 });
 
