@@ -82,7 +82,7 @@ header.innerHTML=
 })
 
 
-const logo = document.querySelector(".logo-img")
+const logo = document.querySelector(".logo-img");
 const menuButton = document.querySelector(".ham-menu");
 const hamMenu = document.querySelector(".off-screen-menu");
 const closeMenu = document.querySelector(".close-menu-btn");

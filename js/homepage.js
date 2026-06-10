@@ -67,6 +67,8 @@ closeMenu.addEventListener("click", (event)=>{
     hamMenu.classList.toggle("active")
 })
 
+const navList =document.querySelector(".nav-list");
+const logo = document.querySelector(".logo-img");
 const darkModeBtn = document.querySelector("#dark-mode-btn");
 const body = document.querySelector("body");
 
@@ -76,5 +78,6 @@ darkModeBtn.addEventListener("click", (event)=>
 {   
     darkModeBtn.classList.toggle("dark");
     body.classList.toggle("dark");
-    navList.classList.toggle("dark")
+    navList.classList.toggle("dark");
+    logo.classList.toggle("dark");
 })

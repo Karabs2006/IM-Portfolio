@@ -15,7 +15,7 @@ const games = [
         name: "The Walking Dead: Season Two",
         year: "2013",
         rating: "10",
-        paragraph: "This game cemented Clementine as my favourite female protagonist in gaming. It takes everything the first game built and refines it into a more emotional and impactful journey. The story focuses heavily on growth, survival, and belonging, and it stands out as one of the few games I truly enjoyed despite its minimal traditional gameplay elements. ",
+        paragraph: "This game cemented Clementine as my favourite female protagonist in gaming. It takes everything the first game built and refines it into a more emotional and impactful journey. The story focuses heavily on growth, survival, and belonging. It stands out as one of the few games I truly enjoyed despite its minimal traditional gameplay elements. ",
         image: "twd2_cover.jpg"
     },
 
@@ -24,7 +24,7 @@ const games = [
         name: "Gears of War 2",
         year: "2008",
         rating: "10",
-        paragraph: "Gears of War 2 took everything great about the first game and perfected it. Beyond the gameplay, it carries a strong emotional connection for me, especially through the story of Marcus and Dom, which reflects the bond I share with my own brother. It remains peak Gears in my eyes and is a game tied deeply to personal memories.",
+        paragraph: "Gears of War 2 took everything great about the first game and perfected it. Beyond the gameplay, it carries a strong emotional connection for me, especially through the story of Marcus and Dom. It reflects the bond I share with my own brother, whom I've played this game a lot with. It remains peak Gears in my eyes and is a game tied deeply to personal memories.",
         image: "gow2_cover.jpg"
     },
 
@@ -33,7 +33,7 @@ const games = [
         name: "Forza Horizon 5",
         year: "2021",
         rating: "10",
-        paragraph: "orza Horizon 5 offers stunning worldbuilding paired with incredibly addictive gameplay. The vibrant environments and sense of freedom make exploring the world feel constantly rewarding. It also sparked a much deeper interest in cars for me, far more than I had before experiencing it.",
+        paragraph: "Forza Horizon 5 offers stunning worldbuilding paired with incredibly addictive gameplay. The vibrant environments and sense of freedom make exploring the world feel constantly rewarding. It also sparked a much deeper interest in cars for me, far more than I had before experiencing it.",
         image: "fh5_cover.jpg"
     },
 
@@ -42,7 +42,7 @@ const games = [
         name: "Cyberpunk 2077",
         year: "2020",
         rating: "10",
-        paragraph: "Cyberpunk 2077 stands out for its atmosphere and setting, which perfectly align with my interest in cyber aesthetics and technology. Despite its rocky launch, the game delivers an amazing RPG experience with strong storytelling, memorable characters, and hours of engaging gameplay that makes Night City feel endless.",
+        paragraph: "Cyberpunk 2077 stands out for its atmosphere and setting, which perfectly align with my interest in cyber aesthetics and technology. Despite its rocky launch, the game delivers an amazing RPG experience with strong storytelling, memorable characters, and hours of engaging gameplay that makes Night City feel endless. <em>Death to Arasaka!</em>",
         image: "cyberpunk_cover.jpg"
     },
 
