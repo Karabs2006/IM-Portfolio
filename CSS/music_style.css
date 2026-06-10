@@ -344,7 +344,7 @@
 }
 
 
-@media (max-device-width : 1024px) 
+@media (max-width : 1024px) 
 {
 
   #photo-selection
@@ -378,7 +378,7 @@
 }
 
 
-@media (max-device-width : 768px)  
+@media (max-width : 768px)  
 {
   #music-hero{
     display: flex;

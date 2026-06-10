@@ -130,7 +130,7 @@ scrollbar-width: none;
 }
 
 
-@media (max-device-width : 1024px) 
+@media (max-width : 1024px) 
 {
 
     .gaming-intro-text
@@ -148,7 +148,7 @@ scrollbar-width: none;
 }
 
 
-@media (max-device-width : 768px) 
+@media (max-width : 768px) 
 {
     
 .group{

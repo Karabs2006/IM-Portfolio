@@ -114,7 +114,7 @@
     margin-left: 7em;
 }
 
-@media (max-device-width : 1024px) 
+@media (max-width : 1024px) 
 {
     .comics-container{
     
@@ -136,7 +136,7 @@
 }
 
 
-@media (max-device-width : 768px) 
+@media (max-width : 768px) 
 {
     .comics-container{
         display: flex;
