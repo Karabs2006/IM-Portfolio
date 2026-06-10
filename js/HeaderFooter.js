@@ -11,7 +11,7 @@ header.innerHTML=
         </div>
 
         <ul>
-            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="../index.html" class="nav-link">Home</a></li>
             <li><a href="./projects.html" class="nav-link">Projects</a></li>
             <li><a href="./skills.html" class="nav-link">Skills</a></li>
             <li><a href="./hobbies.html" class="nav-link">Hobbies</a></li>
@@ -33,12 +33,12 @@ header.innerHTML=
     <nav class="static-nav">
 
         <div class="header-btns">
-        <img src="../images/logo.jpg.png" alt="logo image" class="logo-img">
+        <img src="../images/logo.jpg.png" alt="logo image" class="logo-img" alt="Logo image and button to return to home page">
         <img src="../images/darkmode.png" alt="Dark Mode toggle button" id="dark-mode-btn">
          </div>
 
         <ul class="nav-list">
-            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="../index.html" class="nav-link">Home</a></li>
             <li><a href="./projects.html" class="nav-link">Projects</a></li>
             <li><a href="./skills.html" class="nav-link">Skills</a></li>
             <li><a href="./hobbies.html" class="nav-link">Hobbies</a></li>
