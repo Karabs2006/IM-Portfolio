@@ -68,7 +68,7 @@ nextBtn.addEventListener("click", ()=>{
     stack.innerHTML =
     `
 
-        <img src="../images/Comics/${comics[int].image}">
+        <img src="../images/Comics/${comics[int].image}" alt="Comic Book Cover for ${comics[int].name}">
         <img src="../images/Comics/${comics[secondImgInt].image}">
         <img src="../images/Comics/${comics[thirdImgInt].image}">
 

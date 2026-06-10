@@ -79,7 +79,7 @@ photos.forEach((photo)=>{
     const image = document.createElement("div");
 
     image.innerHTML =
-    `<img src="../images/Music/Albums/${photo}.jpg">`;
+    `<img src="../images/Music/Albums/${photo}.jpg" alt="Selectable image for vinyl artwork on the welcoming section">`;
 
     vinylPhotoContainer.appendChild(image);
 
@@ -105,13 +105,13 @@ card.innerHTML =
     
     <h1 class="artist-name">${artist.name}</h1>
     <div class="artist-content">
-    <video autoplay muted loop src="../images/Music/Videos/${artist.video}"></video>
+    <video autoplay muted loop src="../images/Music/Videos/${artist.video}" alt="Music Video for ${artist.name}"></video>
     <p>${artist.description}</p>
     </div>
 
     <div class="streaming-platforms">
-    <img src="../images/spotify.png" class="spotify-btn">
-    <img src="../images/apple.png" class="apple-btn">
+    <img src="../images/spotify.png" class="spotify-btn" alt="Spotify redirect that opens artist's page on the platform">
+    <img src="../images/apple.png" class="apple-btn" alt="Apple Music redirect button that opens artist's page on the platform">
     </div>
 `;
 
@@ -159,4 +159,10 @@ photoUpload.addEventListener("change", (event) => {
     vinylPhoto.innerHTML = `
         <img src="${imageURL}" alt="User uploaded image">
     `;
+});
+
+
+document.querySelector("form").addEventListener("submit", (event) => {
+    event.preventDefault();
+    alert("Thanks for your suggestion!");
 });

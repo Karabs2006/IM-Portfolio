@@ -114,7 +114,7 @@ const card = document.createElement("div");
 
 card.innerHTML =
 `
-<img src="../images/Music/Albums/${album.cover}">
+<img src="../images/Music/Albums/${album.cover}"  alt="Album cover for ${album.name}">
 <h1>${album.name}</h1>
 <p>${album.artist}</p>
 <p><em>${album.year}</em></p>

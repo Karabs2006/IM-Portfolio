@@ -26,7 +26,7 @@ const renderCards = pages.forEach(page =>{
 
    container.innerHTML += 
    `<div class="about-card">
-    <img src="./images/${page.path}" class="about-image">
+    <img src="./images/${page.path}" class="about-image" alt="Animated gif for the ${page.name} page section">
     <button type="button" class="about-button" data-location="${page.location}">${page.name}</button>
     <p class="about-paragraph">${page.paragraph}</p>
 
@@ -65,4 +65,16 @@ menuButton.addEventListener("click", (event)=>{
 closeMenu.addEventListener("click", (event)=>{
 
     hamMenu.classList.toggle("active")
+})
+
+const darkModeBtn = document.querySelector("#dark-mode-btn");
+const body = document.querySelector("body");
+
+
+
+darkModeBtn.addEventListener("click", (event)=>
+{   
+    darkModeBtn.classList.toggle("dark");
+    body.classList.toggle("dark");
+    navList.classList.toggle("dark")
 })

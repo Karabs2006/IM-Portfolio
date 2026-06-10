@@ -6,7 +6,7 @@ const projects = [
         containerId:"container-two",
         subHeading: "Vegetables",
         images: ["Comic_Project_1.png","Comic_Project_2.png"],
-        paragraph: "In first year, I spent a lot of my time drawing comic books for my studies. I used to draw a lot of comics growing up and this felt like second nature when I had to do it for marks."
+        paragraph: "During my first year of studies, I spent a significant amount of time creating comic books as part of my coursework. Having grown up drawing comics for fun, working on them academically felt almost like second nature. One of my favourite projects was a comic about a group of sentient vegetables that decide to rebel against humanity. What begins as a humorous and absurd premise gradually evolves into a larger mystery involving a secret scientific operation being run behind the scenes by the store where the vegetables originated. As the vegetables uncover the truth about their existence, the story develops into a mix of comedy, action, and mystery. This project allowed me to combine storytelling, character design, and visual composition while creating something that was both entertaining and imaginative. It remains one of the projects I enjoyed working on the most because it gave me the freedom to explore a strange concept and turn it into a full narrative."
     },
 ]
 const projectsSection = document.querySelector(".projects-content");

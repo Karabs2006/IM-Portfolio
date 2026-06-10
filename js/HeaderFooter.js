@@ -31,7 +31,12 @@ header.innerHTML=
     </nav>
 
     <nav class="static-nav">
+
+        <div class="header-btns">
         <img src="../images/logo.jpg.png" alt="logo image" class="logo-img">
+        <img src="../images/darkmode.png" alt="Dark Mode toggle button" id="dark-mode-btn">
+         </div>
+
         <ul class="nav-list">
             <li><a href="index.html" class="nav-link">Home</a></li>
             <li><a href="./projects.html" class="nav-link">Projects</a></li>
@@ -74,8 +79,6 @@ header.innerHTML=
 });
 
 
-
-
 })
 
 
@@ -83,6 +86,11 @@ const logo = document.querySelector(".logo-img")
 const menuButton = document.querySelector(".ham-menu");
 const hamMenu = document.querySelector(".off-screen-menu");
 const closeMenu = document.querySelector(".close-menu-btn");
+
+const darkModeBtn = document.querySelector("#dark-mode-btn");
+const body = document.querySelector("body")
+
+const navList =document.querySelector(".nav-list");
 
 menuButton.addEventListener("click", (event)=>{
 
@@ -99,4 +107,14 @@ closeMenu.addEventListener("click", (event)=>{
 logo.addEventListener("click",(event)=>
 {
     window.location.href = "../index.html";
+})
+
+
+darkModeBtn.addEventListener("click", (event)=>
+{
+    body.classList.toggle("dark");
+    darkModeBtn.classList.toggle("dark");
+    navList.classList.toggle("dark");
+    logo.classList.toggle("dark");
+    menuButton.classList.toggle("dark")
 })

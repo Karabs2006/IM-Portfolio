@@ -1,7 +1,9 @@
 #music-hero{
     display: flex;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: -50px;
   
 }
 
@@ -59,6 +61,7 @@
     overflow-x: auto;
     overflow-y: hidden;
     padding: 40px;
+    margin-bottom: auto;
 }
 
 #photo-selection img{
@@ -509,7 +512,7 @@ label{
 form{
   padding-top: 30px;
   display: flex;
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 
@@ -520,6 +523,26 @@ label{
 
 textarea{
   border-radius: 7px;
+}
+
+.submit-btn{
+  width: 5em;
+  height: 4em;
+  margin-left: 20px;
+  margin-top: 70px;
+  background-color: blueviolet;
+  color: azure;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+
+.submit-btn:hover{
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
+
 }
 
 

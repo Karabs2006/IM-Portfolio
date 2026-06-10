@@ -9,7 +9,43 @@
 
 body
 {
-background-color:floralwhite;
+    transition: background-color 0.3s ease;
+    background-color:floralwhite;
+}
+
+body.dark{
+
+    transition: background-color 0.3s ease;
+    background-color:rgb(27, 26, 26);
+    color: aliceblue;
+}
+
+
+.logo-img.dark{
+    filter: invert(1);
+}
+#dark-mode-btn{
+    width: 3em;
+    height: 3em;
+    margin-left: 20px;
+}
+
+#dark-mode-btn.dark{
+    filter: invert(1);
+}
+
+#dark-mode-btn:hover{
+    cursor: pointer;
+}
+
+.ham-menu.dark span{
+    background-color: aliceblue;
+}
+
+
+.header-btns{
+    display: flex;
+    
 }
 
 #header-img{
@@ -45,7 +81,15 @@ nav{
     justify-content: flex-end;
     margin-right: 40px;
     gap: 70px;
-    
+}
+.nav-list a{
+
+    color: rgb(15, 17, 17);
+}
+
+.nav-list.dark a {
+
+    color: azure;
 }
 
 
@@ -345,6 +389,16 @@ footer li{
 
 @media (max-device-width : 1024px) 
 {   
+
+    #dark-mode-btn{
+    position: relative;
+    bottom: 60px;
+    width: 3em;
+    height: 3em;
+    margin-left: 20px;
+    
+    }
+
     .static-nav
     {
         display: flex;
@@ -355,7 +409,7 @@ footer li{
     }
 
     .logo-img{
-
+        
     }
 
     .ham-menu
@@ -389,6 +443,15 @@ footer li{
 
 @media (max-device-width : 768px) 
 {
+
+    #dark-mode-btn{
+    position: relative;
+    bottom: 60px;
+    width: 3em;
+    height: 3em;
+    margin-left: 20px;
+    
+    }
 
     .close-menu-btn{
     position: relative;

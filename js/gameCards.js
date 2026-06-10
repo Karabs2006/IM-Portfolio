@@ -6,7 +6,8 @@ const games = [
         year: "2018",
         rating: "10",
         paragraph: "Red Dead Redemption 2 is an insanely detailed open-world experience that really showed me there is no limit to what a video game can achieve. Its world feels alive in every possible way, from the smallest environmental detail to the depth of its characters. The story is beautifully crafted and emotional, and it’s a game I always find myself coming back to no matter how much time passes.",
-        image:"rdr2_cover.jpg"
+        image:"rdr2_cover.jpg",
+        
     },
 
     {   
@@ -77,7 +78,7 @@ const gameCards = games.forEach((game)=>{
 
     card.innerHTML +=
     `
-    <img src="../images/Hobbies/Covers/${game.image}" class="game-img">
+    <img src="../images/Hobbies/Covers/${game.image}" class="game-img" alt="Game Card for ${game.name} which is number ${game.id} in the list">
 
                     <div class="shape">
                         <p><strong>${game.id}</strong></p>
